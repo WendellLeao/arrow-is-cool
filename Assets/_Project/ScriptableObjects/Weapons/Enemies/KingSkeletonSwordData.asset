@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a863f885f6b9254c8598001b11c6c85, type: 3}
+  m_Name: KingSkeletonSwordData
+  m_EditorClassIdentifier: 
+  WeaponPool: 8
+  Materials:
+  - {fileID: 2100000, guid: 3e78a31c222826948bab8701edd425d4, type: 2}
+  - {fileID: 2100000, guid: 3a63a60bb424ddb4881a7ecc391ba6c4, type: 2}
+  - {fileID: 2100000, guid: 6713eb59e73245b4ab1be0c4f2b56725, type: 2}
+  - {fileID: 2100000, guid: 95895213f58963c4bbfb91fac531afce, type: 2}
+  - {fileID: 2100000, guid: b71e150a4b9b9114e91253f2d65b30c2, type: 2}
+  - {fileID: 2100000, guid: f754e484da310c245828d2997b47ef53, type: 2}

@@ -1,0 +1,7 @@
+WASD: movimentação 
+ESPAÇO: pulo
+
+BOTÃO ESQUERDO DO MOUSE: atirar
+BOTÃO DIREITO DO MOUSE: mirar
+
+ESC: pause

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c08d0a9debb56f47a2b8947b970085d, type: 3}
+  m_Name: ArrowItemPickedAudio
+  m_EditorClassIdentifier: 
+  Sound: 12
+  AudioClips:
+  - {fileID: 8300000, guid: 908e074ef513db24b9f01fc34308d6b9, type: 3}
+  AudioMixerGroup: {fileID: 24300002, guid: cadcd194e6a9aca428bf12a2fecbcc81, type: 2}
+  Volume: 0.5
+  Pitch: 1
+  SpatialBlend: 1
+  Loop: 0
+  PersistentSound: 0

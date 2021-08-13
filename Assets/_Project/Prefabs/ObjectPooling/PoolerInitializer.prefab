@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7657438584663596898
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7657438584663596900}
+  - component: {fileID: 7657438584663596901}
+  m_Layer: 0
+  m_Name: PoolerInitializer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7657438584663596900
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7657438584663596898}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7657438584663596901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7657438584663596898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4915b147d4aeb8a4d94ff7786256d63b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _pools:
+  - PoolType: 3
+    ObjectToPool: {fileID: 7622132252876046898, guid: bd4cc61eb692e2b42a4dc8ac856b78d8, type: 3}
+    StartAmount: 25
+  - PoolType: 0
+    ObjectToPool: {fileID: 8191009565653768795, guid: d4d47b17e4a8862448254d6ca0fc4e26, type: 3}
+    StartAmount: 25
+  - PoolType: 2
+    ObjectToPool: {fileID: 8532073565286947939, guid: 2f0d693a8f4a773479ac4d724e73257c, type: 3}
+    StartAmount: 30
+  - PoolType: 1
+    ObjectToPool: {fileID: 732013867611436910, guid: 63b02086ca198cb4a94204d0dbe8f124, type: 3}
+    StartAmount: 5
+  - PoolType: 4
+    ObjectToPool: {fileID: 4133142899030574773, guid: 45d4bded55fa6664ba32c6745872c90f, type: 3}
+    StartAmount: 10
+  - PoolType: 5
+    ObjectToPool: {fileID: 3389119540789575350, guid: 2d09c352398a67d46a2bdae75f668a47, type: 3}
+    StartAmount: 10
+  - PoolType: 6
+    ObjectToPool: {fileID: 8159688585105408343, guid: 2fecf345b7e47b94ba4725d1eb246723, type: 3}
+    StartAmount: 15
+  - PoolType: 7
+    ObjectToPool: {fileID: 1690712191638818321, guid: fe34aec0b92eef14fb2438a24b037d1e, type: 3}
+    StartAmount: 15
+  - PoolType: 8
+    ObjectToPool: {fileID: 194216122829823741, guid: 83571dfe0bb464e4caa8498905a1f891, type: 3}
+    StartAmount: 15
